@@ -53,7 +53,7 @@
 			"typeinfo": "cpp"
 		},
 		"git.autoRepositoryDetection": false,
-		"git.enabled": false
+		"git.enabled": true
 	},
 	"launch": {
 		"version": "0.2.0",
