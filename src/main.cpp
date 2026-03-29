@@ -1,6 +1,7 @@
 
 #include <raylib.h>
 
+
 // Global Variables 
 int PLAYER_SCORE = 0;
 int CPU_SCORE = 0;  
@@ -113,9 +114,11 @@ class CpuPaddle :public Paddle
 
 
 int main () {
+	
+	SetTraceLogLevel(LOG_NONE);
 
-    const int SCREEN_WIDTH = 1280;
-    const int SCREEN_HEIGHT = 800;
+    const int SCREEN_WIDTH = 750;
+    const int SCREEN_HEIGHT = 750;
 
 
     //class 
@@ -155,7 +158,6 @@ int main () {
 
 
     while (WindowShouldClose() == false){
-        //Events
         
 
 
